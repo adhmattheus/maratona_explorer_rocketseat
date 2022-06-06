@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(49, 46, 46);
+    color: white;
+}
+
+
+#content {
+    /* border: 2px solid white; */
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#butao {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: #9107e0; 
+    text-align: center;
+    color: white        ;
+    width: 205px;
+    border-radius: 2px;
+    padding: 10px   ;
+    cursor: pointer;
+}
