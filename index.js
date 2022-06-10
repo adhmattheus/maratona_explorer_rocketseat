@@ -19,11 +19,21 @@ const respostas = [
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
 ]
+const elementoResposta = document.querySelector("#resposta")
+const inputPergunta = document.querySelector("#inputPergunta")
 
 //clicar em fazer pergunta
 function fazerPergunta() {
+
+  if (inputPergunta.value == "") {
+    alert("Insira sua pergunta")
+      return
+  }
+
   const totalRespostas = respostas.length
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
 
   console.log(respostas[numeroAleatorio])
+  elementoResposta.innerHTML = respostas[numeroAleatorio]
 }
+
