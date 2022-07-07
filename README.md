@@ -1,2 +1,1 @@
-# maratona_explorer_rocketseat.
-.
+# maratona_explorer_rocketseat 2.0
