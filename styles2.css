@@ -1,0 +1,10 @@
+.container{
+    background:EDF2FF;
+    border: 7px solid red;
+    text-align: center;
+    margin: 0px auto;
+}
+
+img {
+    width: 100%;
+}
